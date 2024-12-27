@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             GitRebaseTestTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Android main commit one",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
